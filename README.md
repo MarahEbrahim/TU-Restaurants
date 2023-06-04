@@ -12,8 +12,7 @@ access to this website.
 Click <a href="https://drive.google.com/file/d/1sduGxFIlla8etXQFOqFJQmQsWLs-JZan/view?usp=sharing">here</a> to see the presentarion 
 
 <h1>Installing </h1>
-```
 git clone https://github.com/MarahEbrahim/Masaruna-app
-```
+
 <h1>License </h1>
  GNU GPLv3 
