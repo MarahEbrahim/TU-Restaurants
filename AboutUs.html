@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>About Us</title>
+    <style>
+        .AboutUs {
+            width: 100%;
+            min-height: 100vh;
+            display: flex;
+            background: url(images/imageAboutUs.jpg) no-repeat;
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            padding: 190px 200px;
+        }
+        .AboutUs h2 {
+            color: rgb(146, 86, 86);
+            font-size: 3em;
+            font-weight: 600;
+            letter-spacing: 1px;
+        }
+        .AboutUs h4 {
+            color:#487671;
+            font-size: 1.5em;
+            font-weight: 300;
+            margin-top: 20px;
+            margin-bottom: 40px;
+            margin-right: 450px;
+        }
+        .Restaurants-btn {
+            color: #fff;
+            background-color: #de9a86;
+            text-decoration: none;
+            font-size: 1.1em;
+            font-weight: 500;
+            display: inline-block;
+            padding: 0.5em 2.1875em;
+            letter-spacing: 1px;
+            border-radius: 15px;
+            transition: 0.7s ease;
+        }
+        
+        .Restaurants-btn:hover {
+            background-color: #6f9692;
+            transform: scale(1.1);
+        }
+        .title{
+            display: flex;
+            justify-content: center;
+            color: #de9a86;
+            font-size: 2.2em;
+            font-weight: 800;
+            margin-top: 50px;
+            margin-bottom: 30px;
+        }
+        .content{
+            display: flex;
+            justify-content: center;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+        .card{
+            background-color: #fff;
+            width: 21.25em;
+            box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
+            border-radius: 10px;
+            padding: 25px;
+            margin: 15px;
+            transition: 0.7s ease;
+        }
+        .card:hover{
+            transform: scale(1.1);
+        }
+        .icon{
+            color:#8eb3af;
+            font-size: 8em;
+            text-align: center;
+        }
+        .info{
+            text-align: center;
+        }
+        .info h3{
+            color: #6f9692;
+            font-size: 1.2em;
+            font-weight: 700;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <a href="index.php" class="logo"> 
+            <img src="images/TURestaurantsLogo2.png" width="180" alt="TU Restaurants logo">
+        </a>
+        <nav class="navigation">
+            <a href="index.php">Home Page</a>
+            <a href="index.php#Restaurants">Restaurants</a>
+            <a href="AboutUs.html">About Us</a>
+            <a href="ContactUs.php">Contact Us</a>
+        </nav>
+    </header>
+    <section class="AboutUs">
+        <div>
+            <h2>ABOUT US</h2>
+
+            <h4>We offer you a special site that brings together all the Taif university’s restaurants and cafes, 
+                to make it easy for you to search easily for your meal, know the location of your restaurant, 
+                and go to it without losing any time so that you can take enjoyable time off. 
+                We wish you a nice experience...</h4>
+            <a href="index.php#Restaurants" class="Restaurants-btn">Start discover</a>
+        </div>
+    </section>
+
+    <section class="cards" id="content">
+        <h2 class="title">Let's work together</h2>
+        <div class="content">
+            <div class="card">
+                <div class="icon">
+                    <i class="fa-solid fa-square-phone-flip"></i>
+                </div>
+                <div class="info">
+                    <h3>Phone</h3>
+                    <p><a href="tel:+966500000000">+966 50 000 0000</a></p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="icon">
+                    <i class="fa-solid fa-envelope"></i>
+                </div>
+                <div class="info">
+                    <h3>Email</h3>
+                    <p><a href="mailto:TURestaurants@gmail.com">TURestaurants@gmail.com</a></p>
+                </div>
+            </div>
+            
+        </div>
+
+    </section>
+</body>
+</html>

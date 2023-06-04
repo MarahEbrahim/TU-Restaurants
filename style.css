@@ -1,0 +1,296 @@
+    /* Shaima */
+    
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    * {
+        font-family: 'Poppins', sans-serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        scroll-behavior: smooth;
+    }
+    
+    header {
+        background-color: rgb(245, 244, 244);
+        width: 100%;
+        position: fixed;
+        z-index: 999;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 200px;
+    }
+    
+    .navigation a {
+        color: #864A38;
+        text-decoration: none;
+        font-size: 1.2em;
+        font-weight: 500;
+        padding-left: 40px;
+    }
+    
+    .navigation a:hover {
+        color: #6f9692;
+    }
+    
+    .meal_header {
+        color: #864A38;
+        font-size: 1.8em;
+        font-weight: 500;
+    }
+    
+    .main {
+        width: 100%;
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        background: url(images/image1.png) no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        padding: 100px 200px;
+    }
+    
+    .main h2 {
+        color: #fff;
+        font-size: 3em;
+        font-weight: 600;
+        letter-spacing: 1px;
+    }
+    
+    .main h4 {
+        color: #fff;
+        font-size: 1.5em;
+        font-weight: 200;
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+    
+    .main-btn {
+        color: #fff;
+        background-color: #de9a86;
+        text-decoration: none;
+        font-size: 1.1em;
+        font-weight: 500;
+        display: inline-block;
+        padding: 0.9375em 2.1875em;
+        letter-spacing: 1px;
+        border-radius: 15px;
+        transition: 0.7s ease;
+    }
+    
+    .main-btn:hover {
+        background-color: #6f9692;
+        transform: scale(1.1);
+    }
+    /* Marah */
+    
+    .hero {
+        width: 100%;
+        height: 100vh;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.7), #864A38), url(images/image1.png);
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    form {
+        width: 90%;
+        max-width: 600px;
+    }
+    
+    .input-group {
+        margin-bottom: 30px;
+        position: relative;
+    }
+    
+    input,
+    textarea {
+        width: 100%;
+        padding: 10px;
+        outline: 0;
+        border: 1px solid #fff;
+        color: #fff;
+        background: transparent;
+        font-size: 15px;
+    }
+    
+    label {
+        height: 100%;
+        position: absolute;
+        left: 0;
+        top: 0;
+        padding: 10px;
+        color: #fff;
+        cursor: text;
+        transition: 0.2s;
+    }
+    
+    button {
+        padding: 10px;
+        color: #fff;
+        outline: none;
+        background: transparent;
+        border: 1px solid #fff;
+        width: 100%;
+        cursor: pointer;
+    }
+    
+    input:focus~label,
+    input:valid~label,
+    textarea:focus~label,
+    textarea:valid~label {
+        top: -35px;
+        font-size: 14px;
+    }
+    
+    .row {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .row .input-group {
+        flex-basis: 48%;
+    }
+    /* Lujain */
+    
+    #Restaurants {
+        background-color: rgba(247, 247, 247);
+        border-radius: 10px;
+        margin: 20px 150px;
+        padding: 10px 200px;
+        position: relative;
+        text-align: center;
+    }
+    
+    #Restaurants h2 {
+        color: #864A38;
+        font-weight: 500;
+        text-align: center;
+        padding: 30px 0px;
+    }
+    
+    .Menu {
+        text-align: center;
+        display: inline;
+        background-color: #f2d7ce;
+        border-radius: 7px;
+        padding: 10px 10px;
+        margin: 20px 0px;
+        justify-content: space-between;
+        align-items: center;
+        width: 500px;
+    }
+    
+    .Menu a {
+        color: #864A38;
+        text-decoration: none;
+        font-size: 1em;
+        font-weight: 500;
+        padding: 3px 30px;
+    }
+    
+    .Menu a:hover {
+        color: #fff;
+        background-color: #a0b7b5;
+        border-radius: 10px;
+    }
+    
+    .Menu button {
+        color: #864A38;
+        text-decoration: none;
+        font-size: 12px;
+        padding: 3px;
+        display: inline-block;
+        width: 80px;
+        border: none;
+        border-radius: 10px;
+    }
+    
+    .Menu button:hover {
+        color: #fff;
+        background-color: #a0b7b5;
+        border-radius: 10px;
+    }
+    
+    .row-container {
+        display: flex;
+        position: relative;
+        text-align: center;
+        margin: 0px 20px;
+    }
+    .container{
+        width: 300px;
+        margin: 10px 10px;
+        background: #eee;
+        border-radius: 30px;
+        box-shadow: 5px 7px 15px #ccc;
+        display: inline-block;
+    }
+    .container img {
+        width: 300px;
+        height: 300px;
+        border-radius: 5px 5px 0 0;
+    }
+    @font-face {
+        font-family: DIN Next LT W23 Regular;
+        src: url(di-next-lt-w23-regular.ttf);
+    }
+    .content {
+    padding: 10px;
+    text-align: center;
+    }
+    .content h3 {
+        color: #6f9692;
+    }
+    .content p {
+        margin: 10px 0px;
+        text-align: center;
+        font-size: 15px;
+        color: #de9a86;
+    }
+    h3 {
+        color: #de9a86;
+    }
+    
+    .content a {
+        padding: 5px 10px;
+        margin: 10px 0px;
+        background: #de9a86;
+        font-size: 15px;
+        color: #fff;
+        border-radius: 20px;
+        text-decoration: none;
+    }
+    
+    .content a:hover {
+        color: #de9a86;
+        background: none;
+    }
+    
+    .card {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        transition: 0.3s;
+        width: 40%;
+    }
+    
+    .card:hover {
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    }
+    
+    .con {
+        padding: 2px 16px;
+    }
+    
+    .con h4 {
+        text-align: justify;
+        margin-top: 10px;
+        color: #333333;
+    }
+    
+    .con b {
+        color: #de9a86;
+        text-align: justify;
+    }
