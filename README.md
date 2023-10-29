@@ -42,23 +42,22 @@ git clone https://github.com/ShaimaAlshalawi/TURestaurants.git
 
 
 ## Team members
-<li>Shaima Alshalawi
-  <a href="https://github.com/ShaimaAlshalawi" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg" alt="shaimaalshalawi" height="20" width="30" /></a>
-  <a href="https://www.linkedin.com/in/shaima-alshalawi" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="shaimaalshalawi" height="20" width="30" /></a>
-</li> 
-
-<li>Marah Al-harthi
-  <a href="https://github.com/MarahEbrahim" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg" alt="Marah Al-harthi" height="20" width="30" /></a>
-  <a href="https://www.linkedin.com/in/marahalharthi/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="marahalharthi" height="20" width="30" /></a>
-</li>
+<li>Bayader Alnemari</li>
 
 <li>Lujain Alshehri
   <a href="https://github.com/Lujain41" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg" alt="Lujain Alshehri" height="20" width="30" /></a>
   <a href="https://www.linkedin.com/in/lujain-alshehri-1069a024a/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="lujain-alshehri" height="20" width="30" /></a>
 </li>
 
-<li>Bayader Alnemari</li>
+<li>Marah Al-harthi
+  <a href="https://github.com/MarahEbrahim" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg" alt="Marah Al-harthi" height="20" width="30" /></a>
+  <a href="https://www.linkedin.com/in/marahalharthi/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="marahalharthi" height="20" width="30" /></a>
+</li>
 
+<li>Shaima Alshalawi
+  <a href="https://github.com/ShaimaAlshalawi" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg" alt="shaimaalshalawi" height="20" width="30" /></a>
+  <a href="https://www.linkedin.com/in/shaima-alshalawi" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="shaimaalshalawi" height="20" width="30" /></a>
+</li> 
 
 ## License
  GNU GPLv3 
